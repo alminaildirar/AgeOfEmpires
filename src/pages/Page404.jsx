@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-const Page404 = () => {
+function Page404() {
   return (
-    <div>Page404</div>
-  )
+    <div className="home">
+      <h1>PAGE NOT FOUND</h1>
+      <Link to="/">Back to home page</Link>
+    </div>
+  );
 }
 
-export default Page404
+export default Page404;
