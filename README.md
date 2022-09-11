@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+## AGE OF EMPIRES 👑
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A react application listing Age of Empires Units. Units can be filtered by both ages and cost values.For state management redux and redux-saga are used.
 
-## Available Scripts
+## 🌏 Check out [ demo](https://ageofempires-almina.netlify.app//)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+### 🔎 Used Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- Redux
+- Redux-Saga
+- SCSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️****Installation****
 
-### `npm run build`
+1. Clone this repo, install dependencies.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```makefile
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Build and run project;
 
-### `npm run eject`
+```makefile
+npm run build
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📸 Screenshots
+<img width="936" alt="units" src="https://user-images.githubusercontent.com/55828986/189548631-b1c01fb9-444b-49df-b55c-992a178197c8.png">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img width="942" alt="details" src="https://user-images.githubusercontent.com/55828986/189548634-84ab3d54-0ba2-402d-a0d3-4f055d47ea33.png">
 
-## Learn More
+## 🗒️ Notes
+Due to lack of time, I could not write all the tests. The tests will be completed as soon as possible.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 📩 Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Almina ILDIRAR
+[Linkedin](https://tr.linkedin.com/in/alminaildirar/en?trk=people-guest_people_search-card)
+[Github](https://github.com/alminaildirar)
