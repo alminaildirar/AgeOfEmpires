@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./App.scss";
 import PageRoutes from "./routes/Routes";
 import NavBar from "./components/NavBar";
 

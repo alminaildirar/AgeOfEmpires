@@ -1,0 +1,132 @@
+body {
+  position: relative;
+  height: 100vh;
+  background: url('assets/home.png');
+}
+header {
+  background: rgba(0, 0, 0, .6) !important;
+  z-index: 1;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  color: #fff;
+  h1 {
+    position: relative;
+    text-align: center;
+
+    &::after{
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 2px;
+      bottom: -10px;
+      left: 50%;
+      transform: translate(-50%);
+      background-color: #ddd;
+    }
+  }
+}
+.units {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ages {
+  padding: 20px 0;
+  text-align: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin: 10px 20px 10px 0;
+
+      button {
+        z-index: 2;
+        padding: 10px 20px;
+        border: 1px solid #333;
+        border-radius: 8px;
+        cursor: pointer;
+        background: #92DCE5;
+        outline: none;
+        transition: all .25s ease-in;
+        &.active {
+          color: #92DCE5;
+          background-color: #000;
+          border: 1px solid #92DCE5;
+        }
+        &:hover {
+          color: #92DCE5;
+          background-color: #000;
+          border: 1px solid #92DCE5;
+        }
+      }
+    }
+  }
+}
+.rangeBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+
+  div.row {
+    width: 30%;
+
+    .col {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    div {
+      width: 100%;
+    }
+  }
+}
+
+table {
+  width: 100%;
+  padding: 20px 5px;
+  background-color: rgba(0, 0, 0, .3);
+  color: #eee;
+
+  th {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    &:first-child {
+      width: 5%;
+    }
+  }
+  tbody tr:nth-child(2n+1){
+    background-color: rgba(146, 219, 229, 0.4);
+  }
+  td {
+    padding: 5px 0;
+    text-align: center;
+  }
+}
+.detail table {
+  width: 800px;
+  margin: 50px auto;
+  td:first-child {
+    width: 50%;
+    
+  }
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
