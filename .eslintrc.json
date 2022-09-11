@@ -8,6 +8,11 @@
       "plugin:react/recommended"
   ],
   "overrides": [
+    {
+        "env": {
+          "jest": true
+        }
+      }
   ],
   "parserOptions": {
       "ecmaVersion": "latest",
